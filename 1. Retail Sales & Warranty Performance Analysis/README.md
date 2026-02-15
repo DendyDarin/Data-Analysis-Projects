@@ -12,7 +12,7 @@ This project analyzes retail sales and warranty data from a multi-store consumer
 - [Dashboard Preview](#dashboard-preview)
 - [Business Impact](#business-impact)
 
-### 📌 Business Problem
+### Business Problem
 The company is experiencing inconsistent sales performance across stores and is uncertain whether warranty programs are driving profitability or increasing long-term costs.
 
 Management needs data-driven insights to answer:
@@ -22,7 +22,7 @@ Management needs data-driven insights to answer:
 * Is there a relationship between product sales volume and warranty claims?
 * Which products have high warranty claim rates that may signal quality issues?
 
-### 🎯 Objective
+### Objective
 The objective is to evaluate store performance, identify top-performing products, and assess the profitability and risk of warranty programs. Through SQL-based KPI calculations and interactive Tableau dashboards, this case study demonstrates how data-driven insights can improve revenue optimization, operational efficiency, and strategic decision-making in the retail industry.
 
 The primary objective of this analysis is to:
@@ -35,33 +35,33 @@ This project aims to:
 * Identify low-performing stores and high-risk products
 * Provide actionable recommendations for revenue growth and cost reduction
 
-### 📊 Dataset
+### Dataset
 - Sales
 - Products
 - Stores
 - Category
 - Warranty
 
-## 🛠 Tools Used
+## Tools Used
 - SQL Server
 - Tableau
 - Excel (if used)
 
-### 📈 Key KPIs
+### Key KPIs
 - Total Revenue
 - Warranty Attachment Rate
 - Claim Rate
 - Store Performance Ranking
 - Product Profitability
 
-### 🔍 Key Insights
+### Key Insights
 (Bullet points)
 
-### 💡 Recommendations
+### Recommendations
 (Actionable insights)
 
-### 📊 Dashboard Preview
+### Dashboard Preview
 (Add screenshots)
 
-### 🚀 Business Impact
+### Business Impact
 (Explain value in 3-4 bullets)
