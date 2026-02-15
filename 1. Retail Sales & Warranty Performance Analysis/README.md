@@ -1,5 +1,5 @@
 # Retail Sales & Warranty Performance Analysis
-This project analyzes retail sales and warranty data from a multi-store consumer electronics company using SQL Server and Tableau. The dataset includes sales transactions, product details, store information, product categories, and warranty data. 
+This project analyzes retail sales and warranty data from a multi-store consumer electronics company using SQL Server and Power BI. The dataset includes sales transactions, product details, store information, product categories, and warranty data. 
 
 ## Table of Contents
 - [Business Problem](#business-problem)
@@ -23,7 +23,7 @@ Management needs data-driven insights to answer:
 * Which products have high warranty claim rates that may signal quality issues?
 
 ### Objective
-The objective is to evaluate store performance, identify top-performing products, and assess the profitability and risk of warranty programs. Through SQL-based KPI calculations and interactive Tableau dashboards, this case study demonstrates how data-driven insights can improve revenue optimization, operational efficiency, and strategic decision-making in the retail industry.
+The objective is to evaluate store performance, identify top-performing products, and assess the profitability and risk of warranty programs. Through SQL-based KPI calculations and interactive Power BI dashboards, this case study demonstrates how data-driven insights can improve revenue optimization, operational efficiency, and strategic decision-making in the retail industry.
 
 The primary objective of this analysis is to:
 > Optimize sales performance and improve profitability by identifying high-performing products, store performance gaps, and warranty-related risks.
@@ -36,23 +36,18 @@ This project aims to:
 * Provide actionable recommendations for revenue growth and cost reduction
 
 ### Dataset
-- Sales
-- Products
-- Stores
-- Category
-- Warranty
+The dataset can be found in [kaggle](https://www.kaggle.com/datasets/amangarg08/apple-retail-sales-dataset).
 
 ## Tools Used
 - SQL Server
-- Tableau
-- Excel (if used)
+- Power BI
 
 ### Key KPIs
 - Total Revenue
+- Product Profitability
 - Warranty Attachment Rate
 - Claim Rate
 - Store Performance Ranking
-- Product Profitability
 
 ### Key Insights
 (Bullet points)
