@@ -2,15 +2,15 @@
 This project analyzes retail sales and warranty data from a multi-store consumer electronics company using SQL Server and Tableau. The dataset includes sales transactions, product details, store information, product categories, and warranty data. 
 
 ## Table of Contents
-* [Business Problem](#business-problem)
-* [Objective](#objective)
-* [Dataset](#dataset)
-* [Tools Used](#tools-used)
-* [Key KPIs](#key-kpis)
-* [Key Insights](#key-insights)
-* [Recommendations](#recommendations)
-* [Dashboard Preview](#dashboard-preview)
-* [Business Impact](#business-impact)
+- [Business Problem](#business-problem)
+- [Objective](#objective)
+- [Dataset](#dataset)
+- [Tools Used](#tools-used)
+- [Key KPIs](#key-kpis)
+- [Key Insights](#key-insights)
+- [Recommendations](#recommendations)
+- [Dashboard Preview](#dashboard-preview)
+- [Business Impact](#business-impact)
 
 ### 📌 Business Problem
 The company is experiencing inconsistent sales performance across stores and is uncertain whether warranty programs are driving profitability or increasing long-term costs.
