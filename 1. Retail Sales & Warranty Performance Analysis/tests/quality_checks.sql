@@ -107,6 +107,11 @@ UPDATE ars.products
 SET product_name = 'HomePod mini 2'
 WHERE product_id = 'P-75'
 
+-- Update product_name Apple Watch Hermes for clarity
+UPDATE ars.products
+SET product_name = 'Apple Watch Hermes'
+WHERE product_id = 'P-49'
+
 -- Check for unwanted spaces
 SELECT *
 FROM ars.products
@@ -232,6 +237,21 @@ SET sale_date = CONCAT(SUBSTRING(sale_date, 7, 4) ,'-' ,SUBSTRING(sale_date, 4, 
 -- Step 2. Change datatype string to date
 ALTER TABLE ars.sales
 ALTER COLUMN sale_date DATE;
+
+-- Add new column revenue
+-- Revenue is calculated as quantity * product price.
+-- This ensures historical accuracy and improves BI query performance.
+
+-- Step 1. Adding new column
+ALTER TABLE ars.sales
+ADD revenue int;
+
+-- Step 2. Populate revenue using UPDATE with JOIN
+UPDATE sa
+SET sa.revenue = sa.quantity * p.price
+FROM ars.sales sa
+JOIN ars.products p
+    ON sa.product_id = p.product_id
 
 -- ====================================================================
 -- Column store_id
